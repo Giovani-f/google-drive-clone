@@ -22,10 +22,10 @@ export default {
     }
   },
   watchPathIgnorePatterns: [
-    "node_modules",
+    "node_modules"
   ],
   transformIgnorePatterns: ["node_modules"],
   collectCoverageFrom: [
-    "src/**/.js", "!src/**/index.js"
-  ]
+    "src/**/*.js", "!src/**/index.js"
+  ],
 };
